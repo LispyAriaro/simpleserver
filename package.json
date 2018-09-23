@@ -1,0 +1,23 @@
+{
+  "name": "SimpleServer",
+  "version": "0.0.0",
+  "description": "Simple Server",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "latest",
+    "knex": "^0.11.5",
+    "parse-database-url": "^0.3.0",
+    "pg": "^4.5.5",
+    "request": "^2.74.0",
+    "socket.io": "latest"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "start": "node index.js"
+  },
+  "author": "Humble guy"
+}
