@@ -20,6 +20,7 @@ app.post('/newNote', function (req, res) {
   res.status(400).json({ "status": "Inputs for newNote" });
 });
 
+
 app.post('/editNote', function (req, res) {
   res.status(400).json({ "status": "Inputs for editNote" });
 });
